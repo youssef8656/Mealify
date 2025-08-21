@@ -1,0 +1,108 @@
+@media (min-width:768px){
+    
+    body{
+        margin-top: 70px;
+    }
+    
+    
+    .nav{
+        position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        align-items: center;
+        padding-block: 0;
+    }
+    .nav ul{
+        flex-direction: row;
+        gap: 20px;
+        
+    }
+
+    .home{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .home .image{
+        width: 35%;
+    }
+
+    .chefs .chef-cards{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .chefs .chef-cards .card{
+        width: 30%;
+    }
+
+    .gallery .container{
+        flex-wrap: wrap;
+        height: 1250px;
+        
+    }
+    .gallery .container .image{
+        width: 30%;
+        height: fit-content;
+    }
+    .gallery .container .image-1{
+        order: 1;
+    }
+    .gallery .container .image-2{
+        order: 3;
+    }
+    .gallery .container .image-3{
+        order: 5;
+    }
+    .gallery .container .image-4{
+        order: 2;
+    }
+    .gallery .container .image-5{
+        order: 6;
+    }
+    .gallery .container .image-6{
+        order: 7;
+    }
+    .gallery .container .image-7{
+        order: 4;
+    }
+
+
+    .footer .section-container{
+            flex-direction: row;
+            justify-content: space-around;
+    }
+    .footer .section-container .mealify{
+        width: 20%;
+        box-sizing: border-box;
+    }
+    .footer .section-container .get-in-touch{
+        width: 20%;
+        padding-inline: 10px;
+        box-sizing: border-box;
+
+    }
+    .footer .section-container .subscribe{
+        width: 50%;
+        box-sizing: border-box;
+
+    }
+    .footer .form{
+        flex-direction: row;
+    }
+    .footer .form button{
+        width: 15%;
+    }
+    .footer .form input{
+        width: 80%;
+    }
+
+
+    .section-container{
+        width: 90%;
+        margin: auto;
+    }
+}
+
