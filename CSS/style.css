@@ -424,7 +424,7 @@ a{
 
 
 .footer{
-    background-image: url(./images/textured-metal-background.jpg);
+    background-image: url(../images/textured-metal-background.jpg);
     background-repeat: repeat;
     color: var(--light-color);
     
