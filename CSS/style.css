@@ -234,7 +234,7 @@ a{
     position: absolute;
     bottom: -1px;
     left: 0;
-    background-image: url(images/team-shape.svg);
+    background-image: url(../images/team-shape.svg);
     background-repeat: repeat-x;
     height: 50px;
     width: 100%;
@@ -424,13 +424,14 @@ a{
 
 
 .footer{
-    background-image: url(images/textured-metal-background.jpg);
+    background-image: url(../images/textured-metal-background.jpg);
     background-repeat: repeat;
     color: var(--light-color);
     .section-container{
-    display: flex;
-    flex-direction: column;
-    padding: 15px 0;}
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+    }
 }
 .footer .mealify{
     width: 100%;
