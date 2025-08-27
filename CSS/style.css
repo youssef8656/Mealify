@@ -427,6 +427,7 @@ a{
     background-image: url(../images/textured-metal-background.jpg);
     background-repeat: repeat;
     color: var(--light-color);
+    
     .section-container{
         display: flex;
         flex-direction: column;
